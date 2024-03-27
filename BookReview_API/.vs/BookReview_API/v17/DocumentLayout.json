@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Rachel\\source\\repos\\y4sem2\\csharp\\CA2\\eadca2_bookreviews_api\\BookReview_API\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A60D616B-E5AE-46E8-B4BD-D8299FE12936}|BookReview_API\\BookReview_API.csproj|c:\\users\\rachel\\source\\repos\\y4sem2\\csharp\\ca2\\eadca2_bookreviews_api\\bookreview_api\\bookreview_api\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A60D616B-E5AE-46E8-B4BD-D8299FE12936}|BookReview_API\\BookReview_API.csproj|solutionrelative:bookreview_api\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A60D616B-E5AE-46E8-B4BD-D8299FE12936}|BookReview_API\\BookReview_API.csproj|c:\\users\\rachel\\source\\repos\\y4sem2\\csharp\\ca2\\eadca2_bookreviews_api\\bookreview_api\\bookreview_api\\bookreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A60D616B-E5AE-46E8-B4BD-D8299FE12936}|BookReview_API\\BookReview_API.csproj|solutionrelative:bookreview_api\\bookreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A60D616B-E5AE-46E8-B4BD-D8299FE12936}|BookReview_API\\BookReview_API.csproj|c:\\users\\rachel\\source\\repos\\y4sem2\\csharp\\ca2\\eadca2_bookreviews_api\\bookreview_api\\bookreview_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A60D616B-E5AE-46E8-B4BD-D8299FE12936}|BookReview_API\\BookReview_API.csproj|solutionrelative:bookreview_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A60D616B-E5AE-46E8-B4BD-D8299FE12936}|BookReview_API\\BookReview_API.csproj|c:\\users\\rachel\\source\\repos\\y4sem2\\csharp\\ca2\\eadca2_bookreviews_api\\bookreview_api\\bookreview_api\\migrations\\20240327151226_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A60D616B-E5AE-46E8-B4BD-D8299FE12936}|BookReview_API\\BookReview_API.csproj|solutionrelative:bookreview_api\\migrations\\20240327151226_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A60D616B-E5AE-46E8-B4BD-D8299FE12936}|BookReview_API\\BookReview_API.csproj|c:\\users\\rachel\\source\\repos\\y4sem2\\csharp\\ca2\\eadca2_bookreviews_api\\bookreview_api\\bookreview_api\\controllers\\reviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A60D616B-E5AE-46E8-B4BD-D8299FE12936}|BookReview_API\\BookReview_API.csproj|solutionrelative:bookreview_api\\controllers\\reviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +30,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ReviewsController.cs",
+              "DocumentMoniker": "C:\\Users\\Rachel\\source\\repos\\y4sem2\\csharp\\CA2\\eadca2_bookreviews_api\\BookReview_API\\BookReview_API\\Controllers\\ReviewsController.cs",
+              "RelativeDocumentMoniker": "BookReview_API\\Controllers\\ReviewsController.cs",
+              "ToolTip": "C:\\Users\\Rachel\\source\\repos\\y4sem2\\csharp\\CA2\\eadca2_bookreviews_api\\BookReview_API\\BookReview_API\\Controllers\\ReviewsController.cs",
+              "RelativeToolTip": "BookReview_API\\Controllers\\ReviewsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T15:06:09.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\Rachel\\source\\repos\\y4sem2\\csharp\\CA2\\eadca2_bookreviews_api\\BookReview_API\\BookReview_API\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "BookReview_API\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\Rachel\\source\\repos\\y4sem2\\csharp\\CA2\\eadca2_bookreviews_api\\BookReview_API\\BookReview_API\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "BookReview_API\\Controllers\\BooksController.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAYwCwAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T15:05:13.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Rachel\\source\\repos\\y4sem2\\csharp\\CA2\\eadca2_bookreviews_api\\BookReview_API\\BookReview_API\\appsettings.json",
+              "RelativeDocumentMoniker": "BookReview_API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Rachel\\source\\repos\\y4sem2\\csharp\\CA2\\eadca2_bookreviews_api\\BookReview_API\\BookReview_API\\appsettings.json",
+              "RelativeToolTip": "BookReview_API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAADnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-27T15:17:58.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookReview.cs",
+              "DocumentMoniker": "C:\\Users\\Rachel\\source\\repos\\y4sem2\\csharp\\CA2\\eadca2_bookreviews_api\\BookReview_API\\BookReview_API\\BookReview.cs",
+              "RelativeDocumentMoniker": "BookReview_API\\BookReview.cs",
+              "ToolTip": "C:\\Users\\Rachel\\source\\repos\\y4sem2\\csharp\\CA2\\eadca2_bookreviews_api\\BookReview_API\\BookReview_API\\BookReview.cs",
+              "RelativeToolTip": "BookReview_API\\BookReview.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAqwCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T14:48:21.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20240327151226_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Rachel\\source\\repos\\y4sem2\\csharp\\CA2\\eadca2_bookreviews_api\\BookReview_API\\BookReview_API\\Migrations\\20240327151226_InitialCreate.cs",
+              "RelativeDocumentMoniker": "BookReview_API\\Migrations\\20240327151226_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Rachel\\source\\repos\\y4sem2\\csharp\\CA2\\eadca2_bookreviews_api\\BookReview_API\\BookReview_API\\Migrations\\20240327151226_InitialCreate.cs",
+              "RelativeToolTip": "BookReview_API\\Migrations\\20240327151226_InitialCreate.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAowCsAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T15:12:27.179Z",
+              "EditorCaption": ""
             }
           ]
         }

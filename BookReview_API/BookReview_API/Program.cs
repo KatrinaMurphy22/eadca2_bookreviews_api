@@ -1,4 +1,9 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using BookReview_API.Data;
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<BookReview_APIContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("BookReview_APIContext") ?? throw new InvalidOperationException("Connection string 'BookReview_APIContext' not found.")));
 
 // Add services to the container.
 
