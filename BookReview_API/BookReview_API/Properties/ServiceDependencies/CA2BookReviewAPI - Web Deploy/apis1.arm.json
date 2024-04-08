@@ -36,7 +36,7 @@
     },
     {
       "type": "Microsoft.Resources/deployments",
-      "name": "[concat(parameters('resourceGroupName'), 'Deployment', uniqueString(concat('BookReview', subscription().subscriptionId)))]",
+      "name": "[concat(parameters('resourceGroupName'), 'Deployment', uniqueString(concat('BookReviewAPI', subscription().subscriptionId)))]",
       "resourceGroup": "[parameters('resourceGroupName')]",
       "apiVersion": "2019-10-01",
       "dependsOn": [
@@ -95,9 +95,9 @@
             },
             {
               "type": "Microsoft.ApiManagement/service/apis",
-              "name": "BookReviewAPI/BookReview",
+              "name": "BookReviewAPI/BookReviewAPI",
               "properties": {
-                "displayName": "BookReview",
+                "displayName": "BookReviewAPI",
                 "apiRevision": "1",
                 "description": null,
                 "subscriptionRequired": true,

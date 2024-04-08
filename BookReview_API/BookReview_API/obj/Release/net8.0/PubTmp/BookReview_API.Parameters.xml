@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
-  <parameter name="IIS Web Application Name" description="" value="BookReviewAPI20240327165500" tags="IisApp">
+  <parameter name="IIS Web Application Name" description="" value="CA2BookReviewAPI" tags="IisApp">
     <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Rachel\\source\\repos\\y4sem2\\csharp\\CA2\\eadca2_bookreviews_api\\BookReview_API\\BookReview_API\\obj\\Release\\net8\.0\\PubTmp\\Out\\$" />
   </parameter>
 </parameters>

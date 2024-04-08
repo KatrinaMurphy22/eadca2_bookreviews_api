@@ -1,8 +1,12 @@
 {
   "dependencies": {
+    "secrets1": {
+      "type": "secrets"
+    },
     "mssql1": {
       "type": "mssql",
-      "connectionId": "ConnectionStrings:BookReview_APIContext"
+      "connectionId": "ConnectionStrings:BookReview_APIContext",
+      "dynamicId": null
     },
     "apis1": {
       "type": "apis"

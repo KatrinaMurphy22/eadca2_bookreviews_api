@@ -21,7 +21,7 @@
     },
     "resourceName": {
       "type": "string",
-      "defaultValue": "BookReviewAPI20240327165500",
+      "defaultValue": "CA2BookReviewAPI",
       "metadata": {
         "description": "Name of the main resource to be created by this template."
       }

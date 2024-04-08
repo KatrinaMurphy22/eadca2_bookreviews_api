@@ -12,6 +12,6 @@
     <WebStackScaffolding_LayoutPageFile />
     <WebStackScaffolding_DbContextTypeFullName>BookReview_API.Data.BookReview_APIContext</WebStackScaffolding_DbContextTypeFullName>
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
-    <NameOfLastUsedPublishProfile>BookReviewAPI20240327165500 - Web Deploy</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>C:\Users\Rachel\source\repos\y4sem2\csharp\CA2\eadca2_bookreviews_api\BookReview_API\BookReview_API\Properties\PublishProfiles\CA2BookReviewAPI - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>
