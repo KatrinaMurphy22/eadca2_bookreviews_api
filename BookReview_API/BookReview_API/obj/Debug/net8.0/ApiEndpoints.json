@@ -135,6 +135,32 @@
     ]
   },
   {
+    "ContainingType": "BookReview_API.Controllers.BooksController",
+    "Method": "GetAuthorsBooks",
+    "RelativePath": "api/Books/author/{author}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "author",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[BookReview_API.Book, BookReview_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "BookReview_API.Controllers.ReviewsController",
     "Method": "GetReview",
     "RelativePath": "api/Reviews",

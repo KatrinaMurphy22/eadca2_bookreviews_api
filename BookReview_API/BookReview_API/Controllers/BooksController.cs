@@ -29,7 +29,7 @@ namespace BookReview_API.Controllers
         }
 
         // GET: api/Books/5
-        [HttpGet("{id}")]
+        [HttpGet("{id:int}")]
         public async Task<ActionResult<Book>> GetBook(int id)
         {
             var book = await _context.Book.FindAsync(id);
@@ -40,6 +40,20 @@ namespace BookReview_API.Controllers
             }
 
             return book;
+        }
+
+        // GET: api/Books/author
+        [HttpGet("author/{author:alpha}")]
+        public async Task<ActionResult<IEnumerable<Book>>> GetAuthorsBooks(string author)
+        {
+            var books = await _context.Book.Where(r => r.Author == author).ToListAsync();
+
+            if (!books.Any())
+            {
+                return NotFound();
+            }
+
+            return Ok(books);
         }
 
         // GET: api/Books/5/reviews
@@ -58,7 +72,7 @@ namespace BookReview_API.Controllers
 
         // PUT: api/Books/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPut("{id}")]
+        [HttpPut("{id:int}")]
         public async Task<IActionResult> PutBook(int id, Book book)
         {
             if (id != book.BookId)
