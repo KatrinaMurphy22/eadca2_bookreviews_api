@@ -42,6 +42,24 @@ namespace BookReview_API.Controllers
             return book;
         }
 
+
+        // GET: api/search/
+        [HttpGet("search/{str:alpha}")]
+        public async Task<ActionResult<Book>> GetSearchResults(string str)
+        {
+            var books = await _context.Book
+        .Where(b => EF.Functions.Like(b.Title, $"%{str}%") || EF.Functions.Like(b.Author, $"%{str}%"))
+        .ToListAsync();
+
+            if (!books.Any())
+            {
+                return NotFound();
+            }
+
+            return Ok(books);
+        }
+
+
         // GET: api/Books/author
         [HttpGet("author/{author:alpha}")]
         public async Task<ActionResult<IEnumerable<Book>>> GetAuthorsBooks(string author)

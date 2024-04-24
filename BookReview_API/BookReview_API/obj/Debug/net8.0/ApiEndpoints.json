@@ -161,6 +161,32 @@
     ]
   },
   {
+    "ContainingType": "BookReview_API.Controllers.BooksController",
+    "Method": "GetSearchResults",
+    "RelativePath": "api/Books/search/{str}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "str",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BookReview_API.Book",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "BookReview_API.Controllers.ReviewsController",
     "Method": "GetReview",
     "RelativePath": "api/Reviews",

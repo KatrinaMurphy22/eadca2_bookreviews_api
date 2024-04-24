@@ -139,6 +139,38 @@
         }
       }
     },
+    "/api/Books/author/{author}": {
+      "get": {
+        "tags": [
+          "Books"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "author",
+            "required": true,
+            "type": "string",
+            "pattern": "^[A-Za-z]*$"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Book"
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/Books/{id}/reviews": {
       "get": {
         "tags": [
