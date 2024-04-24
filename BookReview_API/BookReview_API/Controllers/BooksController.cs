@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using BookReview_API;
 using BookReview_API.Data;
+using static System.Reflection.Metadata.BlobBuilder;
 
 namespace BookReview_API.Controllers
 {
@@ -57,6 +58,39 @@ namespace BookReview_API.Controllers
             }
 
             return Ok(books);
+        }
+
+        // POST: api/book/review/
+        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        [HttpPost("Review")]
+        public async Task<ActionResult> PostBookReview(NewReview review)
+        {
+            var book = await _context.Book.FirstOrDefaultAsync(b => b.Title == review.BookTitle);
+
+            if (book == null)
+            {
+                return NotFound();
+            }
+
+            var newReview = new Review
+            {
+                BookId = book.BookId,
+                Rating = review.Rating,
+                Comment = review.Comment,
+                Reviewer = review.Reviewer
+            };
+
+            _context.Review.Add(newReview);
+
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                throw;
+            }
+            return Ok();
         }
 
 

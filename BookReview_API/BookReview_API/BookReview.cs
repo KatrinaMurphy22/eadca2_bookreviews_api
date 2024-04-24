@@ -30,4 +30,12 @@ namespace BookReview_API
         [Required]
         public string Reviewer { get; set; }
     }
+
+    public class NewReview
+    {
+        public String BookTitle { get; set; }
+        public int Rating { get; set; }
+        public String Comment { get; set; }
+        public string Reviewer { get; set; }
+    }
 }

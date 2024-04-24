@@ -162,6 +162,22 @@
   },
   {
     "ContainingType": "BookReview_API.Controllers.BooksController",
+    "Method": "PostBookReview",
+    "RelativePath": "api/Books/Review",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "review",
+        "Type": "BookReview_API.NewReview",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookReview_API.Controllers.BooksController",
     "Method": "GetSearchResults",
     "RelativePath": "api/Books/search/{str}",
     "HttpMethod": "GET",
